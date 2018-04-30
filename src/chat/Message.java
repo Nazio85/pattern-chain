@@ -1,17 +1,17 @@
 package chat;
 
 public class Message {
-    private String messge;
+    private String message;
 
-    public Message(String messge) {
-        this.messge = messge;
+    public Message(String message) {
+        this.message = message;
     }
 
-    public String getMessge() {
-        return messge;
+    public String getMessage() {
+        return message;
     }
 
-    public void setMessge(String messge) {
-        this.messge = messge;
+    public void setMessage(String message) {
+        this.message = message;
     }
 }
